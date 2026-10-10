@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TraceForge — Hantek 1008 Oscilloscope Software for Linux</title>
+  <meta name="description" content="Run your Hantek 1008 oscilloscope on Linux with TraceForge. Eight-channel viewing, raw recordings, reference overlays and CSV/MP4 export. Tested with the 1008B.">
+  <meta name="theme-color" content="#10181e">
+  <link rel="canonical" href="https://naruhaxor.github.io/TraceForge/">
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TraceForge">
+  <meta property="og:title" content="TraceForge — Hantek 1008 on Linux">
+  <meta property="og:description" content="Eight channels. Raw recordings. Your Hantek scope, running on Linux. Download the TraceForge AppImage or build from source.">
+  <meta property="og:url" content="https://naruhaxor.github.io/TraceForge/">
+  <meta property="og:image" content="https://naruhaxor.github.io/TraceForge/assets/traceforge-scope.png">
+  <meta property="og:image:width" content="1480">
+  <meta property="og:image:height" content="1000">
+  <meta property="og:image:alt" content="TraceForge Linux oscilloscope displaying three named, vertically separated demonstration traces.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TraceForge — Hantek 1008 on Linux">
+  <meta name="twitter:description" content="Linux oscilloscope software with eight-channel viewing, waveform recordings and reference overlays. Tested with the Hantek 1008B.">
+  <meta name="twitter:image" content="https://naruhaxor.github.io/TraceForge/assets/traceforge-scope.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "TraceForge",
+    "url": "https://naruhaxor.github.io/TraceForge/",
+    "description": "Native Linux oscilloscope application for the Hantek 1008 series, tested with the 1008B. Live viewing, waveform recordings, reference overlays, and CSV/MP4 export.",
+    "operatingSystem": "Linux x86_64, glibc 2.35 or newer",
+    "applicationCategory": "UtilitiesApplication",
+    "softwareVersion": "0.7.5",
+    "downloadUrl": "https://github.com/naruhaxor/TraceForge/releases/download/v0.7.5/TraceForge-0.7.5-x86_64.AppImage",
+    "releaseNotes": "https://github.com/naruhaxor/TraceForge/releases/tag/v0.7.5",
+    "screenshot": "https://naruhaxor.github.io/TraceForge/assets/traceforge-scope.png",
+    "author": {"@type": "Person", "name": "naruhaxor", "url": "https://github.com/naruhaxor"},
+    "isBasedOn": "https://github.com/mfg92/hantek1008py",
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="TraceForge home"><img src="assets/icon.svg" alt="" width="40" height="40"><span>TraceForge<small>for Linux · Hantek 1008 series</small></span></a>
+    <nav aria-label="Main navigation"><a href="#features">Features</a><a href="#setup">Setup</a><a href="https://github.com/naruhaxor/TraceForge">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <aside class="credit wrap" aria-label="Upstream credit"><span class="credit-label">Built on shared work</span><p>Credit and thanks to <a href="https://github.com/mfg92">mfg92</a>. Their <a href="https://github.com/mfg92/hantek1008py">hantek1008py driver and USB protocol research</a> made TraceForge possible. Upstream driver: <a href="https://github.com/mfg92/hantek1008py/blob/master/LICENSE">Apache-2.0</a>.</p></aside>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> Version 0.7.5 · Public beta</p>
+        <h1 id="hero-title">Hantek 1008 oscilloscope software <span>for Linux.</span></h1>
+        <p class="intro">See your signals. Save the whole recording. Compare waveforms in the same graph. TraceForge brings your eight-channel USB scope to a native Linux desktop.</p>
+        <div class="actions"><a class="button primary" href="https://github.com/naruhaxor/TraceForge/releases/download/v0.7.5/TraceForge-0.7.5-x86_64.AppImage">Download AppImage <span aria-hidden="true">↓</span></a><a class="button secondary" href="https://github.com/naruhaxor/TraceForge/releases/tag/v0.7.5">Source &amp; release notes <span aria-hidden="true">↗</span></a></div>
+        <p class="download-note">Free download · x86_64 Linux · Python libraries included</p>
+      </div>
+      <dl class="specs"><div><dt>08</dt><dd>input channels</dd></div><div><dt>1008B</dt><dd>tested hardware</dd></div><div><dt>RAW</dt><dd>samples kept in recordings</dd></div></dl>
+    </section>
+    <figure class="scope wrap">
+      <div class="figure-bar"><span><span class="status-dot"></span> Inside TraceForge</span><a href="assets/traceforge-scope.png">View full screenshot <span aria-hidden="true">↗</span></a></div>
+      <a href="assets/traceforge-scope.png" aria-label="Open full-size TraceForge screenshot"><img src="assets/traceforge-scope.png" alt="TraceForge Linux oscilloscope interface with three named, vertically offset traces, per-channel voltage readings, reference overlay controls and recording playback." width="1480" height="1000" fetchpriority="high"></a>
+      <figcaption>Actual app screenshot from v0.7.4. Synthetic demonstration signals show channel positions and display filtering; these are not captured vehicle measurements.</figcaption>
+    </figure>
+    <section id="features" class="features wrap section" aria-labelledby="features-title">
+      <div class="section-heading"><p class="eyebrow">From live signal to saved comparison</p><h2 id="features-title">Keep every channel in view.</h2></div>
+      <div class="feature-row"><span class="row-number yellow">01</span><h3>Arrange the signals around the job.</h3><p>Name channels, hide the ones you do not need to see, and drag their left-side handles to separate the traces. Hiding a live channel keeps acquisition running and its samples in the recording.</p></div>
+      <div class="feature-row"><span class="row-number blue">02</span><h3>Record first. Look closer later.</h3><p>Give your recording a name and save continuously to a dated folder. Reopen it with channel names intact, then export CSV data or an MP4 video. Display rounding leaves the recorded samples unfiltered.</p></div>
+      <div class="feature-row"><span class="row-number pink">03</span><h3>Bring your reference into the graph.</h3><p>Overlay another recording, an included reference example, or an image. Keep the comparison inside the app while positioning your traces. Image overlays are visual references, not measured data.</p></div>
+    </section>
+    <section id="setup" class="setup section" aria-labelledby="setup-title"><div class="wrap setup-grid">
+      <div><p class="eyebrow">Start with the AppImage</p><h2 id="setup-title">Download.<br>Connect.<br><span>Trace.</span></h2><p>The AppImage includes Python and the application libraries. Run it as your regular Linux user.</p><a class="text-link" href="https://github.com/naruhaxor/TraceForge/releases/tag/v0.7.5">Release notes &amp; SHA-256 checksums <span aria-hidden="true">↗</span></a></div>
+      <div class="setup-steps"><article><span class="step-label">01 / Make it executable</span><h3>Open a terminal in your download folder.</h3><pre><code>chmod +x TraceForge-0.7.5-x86_64.AppImage
+./TraceForge-0.7.5-x86_64.AppImage</code></pre></article>
+        <article><span class="step-label">02 / Allow USB access once</span><h3>Accept the first-run USB setup.</h3><p>The app opens a terminal, shows the commands, and asks for sudo to install its USB access rule. Desktop and application-menu shortcuts are optional.</p></article>
+        <article><span class="step-label">03 / Start a capture</span><h3>Plug in the scope and choose Connect + run.</h3><p>Choose <strong>Record</strong> to name and save a capture. The default location is <code>~/Documents/Traceforge/YYYY-MM-DD/</code>, and you can change it in the app. Saved recordings can be opened without a connected scope.</p></article>
+      </div>
+    </div></section>
+    <section class="wrap section compatibility" aria-labelledby="compatibility-title"><div class="section-heading"><p class="eyebrow">Know what has been tested</p><h2 id="compatibility-title">Hardware &amp; Linux compatibility</h2></div>
+      <div class="compat-grid"><div><h3>Hantek 1008 series</h3><p>TraceForge has been tested with a <strong>Hantek 1008B</strong>. Compatibility with the 1008A and 1008C has not yet been verified. Reports from owners of those models are welcome.</p></div><div><h3>Linux x86_64</h3><p>The downloadable AppImage targets <strong>glibc 2.35 or newer</strong>. Builds have been checked against an Ubuntu 22.04 baseline and on Garuda Linux. Wider distro testing is ongoing.</p></div><div><h3>Current beta limits</h3><p>Timing is nominal and still needs hardware validation. Changes that alter the hardware capture rate can restart acquisition and split an active recording into parts. <a href="https://github.com/naruhaxor/TraceForge/blob/main/TIMING.md">Read the timing notes.</a></p></div></div>
+    </section>
+    <section id="questions" class="wrap section faq" aria-labelledby="questions-title"><div class="section-heading"><p class="eyebrow">Practical details</p><h2 id="questions-title">Before your first capture</h2></div>
+      <details><summary>Do I need Windows or Wine to use TraceForge?</summary><p>No. TraceForge runs natively on Linux. When building from source, the builder downloads or locates Hantek’s Windows software ZIP to extract required vendor files; it does not run the Windows installer.</p></details>
+      <details><summary>What if the AppImage will not mount?</summary><p>Try the extract-and-run option from the same folder:</p><pre><code>APPIMAGE_EXTRACT_AND_RUN=1 ./TraceForge-0.7.5-x86_64.AppImage</code></pre></details>
+      <details><summary>Can I build it on Ubuntu, Debian, Arch, Fedora or openSUSE?</summary><p>The source builder has prerequisite instructions for those distro families and sets up a private Python environment when needed. See the <a href="https://github.com/naruhaxor/TraceForge#build-prerequisites-by-distro">commands for your distro in the README</a>, then run:</p><pre><code>chmod +x build.sh
+./build.sh</code></pre><p>Downloads, driver source and build dependencies are acquired separately. Only TraceForge’s own files are carried in its source package.</p></details>
+      <details><summary>Does the noise filter change my recording?</summary><p>No. The Noise filter control rounds displayed voltage readings to three, two or one decimal places. Apply filter to graph rounds the plotted display too. Recordings keep the unfiltered samples; this control is display rounding, not a frequency-selective noise filter.</p></details>
+      <details><summary>How can I report results from another Linux distro?</summary><p>Run the package check, then <a href="https://github.com/naruhaxor/TraceForge/issues">open a GitHub issue</a> with your distro version, scope model, app version and what happened:</p><pre><code>./TraceForge-0.7.5-x86_64.AppImage --self-test traceforge-check.json</code></pre><p>This checks the package without capturing hardware samples.</p></details>
+    </section>
+    <section class="wrap final-cta"><div><p class="eyebrow">Put your scope to work</p><h2>Ready when your signal is.</h2></div><a class="button primary" href="https://github.com/naruhaxor/TraceForge/releases/download/v0.7.5/TraceForge-0.7.5-x86_64.AppImage">Download for Linux <span aria-hidden="true">↓</span></a></section>
+  </main>
+  <footer class="wrap"><p><strong>TraceForge</strong> · An independent project by <a href="https://github.com/naruhaxor">naruhaxor</a>.<br>Not affiliated with or endorsed by Hantek.</p><nav aria-label="Footer navigation"><a href="https://github.com/naruhaxor/TraceForge">Source</a><a href="https://github.com/naruhaxor/TraceForge/issues">Issues</a><a href="https://github.com/mfg92/hantek1008py">Upstream driver</a></nav></footer>
+</body>
+</html>
