@@ -1,0 +1,8 @@
+/work/
+/dist/
+/HT1008_Software.zip
+*.AppImage
+*.AppImage.sha256
+__pycache__/
+*.pyc
+.venv/
