@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=TraceForge
+Comment=Linux oscilloscope for the Hantek 1008 series
+Exec=hantek-linux-scope
+Icon=hantek-linux
+Terminal=false
+Categories=Science;Electronics;
+StartupNotify=true
+StartupWMClass=hantek-linux

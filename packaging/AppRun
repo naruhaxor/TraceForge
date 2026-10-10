@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+APP_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+export PYQTGRAPH_QT_LIB=PySide6
+export TRACEFORGE_FONTCONFIG_FILE_ORIG="${FONTCONFIG_FILE-}"
+export FONTCONFIG_FILE="$APP_ROOT/usr/lib/hantek-linux-scope/_internal/fonts.conf"
+exec "$APP_ROOT/usr/lib/hantek-linux-scope/hantek-linux-scope" "$@"
