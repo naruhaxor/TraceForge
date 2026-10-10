@@ -1,10 +1,12 @@
-# TraceForge
+# TraceForge — Hantek 1008 Oscilloscope Software for Linux
 
 > **Credit and thanks to [mfg92](https://github.com/mfg92):** TraceForge builds on the [hantek1008py](https://github.com/mfg92/hantek1008py) driver and its reverse engineering of the Hantek 1008 USB protocol. That work made this Linux app possible. The upstream driver is licensed under [Apache-2.0](https://github.com/mfg92/hantek1008py/blob/master/LICENSE).
 
 **for Linux · Hantek 1008 series**
 
-An eight-channel oscilloscope app with live viewing, recordings, reference overlays, and CSV/MP4 export. Tested hardware: Hantek 1008B.
+TraceForge is a native Linux oscilloscope application for the Hantek 1008 series. Tested with the Hantek 1008B, it provides eight-channel live viewing, waveform recordings, reference overlays, and CSV/video export.
+
+[Website and screenshots](https://naruhaxor.github.io/TraceForge/) · [Download the AppImage](https://github.com/naruhaxor/TraceForge/releases/tag/v0.7.5) · [Report an issue](https://github.com/naruhaxor/TraceForge/issues)
 
 ## Run
 

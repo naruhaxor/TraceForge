@@ -50,5 +50,11 @@
   "usb_setup.py",
   "builder/bootstrap.py",
   "test_bootstrap.py",
-  "test_system_deps.py"
+  "test_system_deps.py",
+  "docs/.nojekyll",
+  "docs/assets/icon.svg",
+  "docs/assets/traceforge-scope.png",
+  "docs/index.html",
+  "docs/sitemap.xml",
+  "docs/styles.css"
 ]
