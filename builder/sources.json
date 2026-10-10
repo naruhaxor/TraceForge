@@ -1,0 +1,51 @@
+{
+  "portable": {
+    "rootfs": {
+      "filename": "ubuntu-base-22.04.5-base-amd64.tar.gz",
+      "url": "https://cdimage.ubuntu.com/ubuntu-base/releases/22.04/release/ubuntu-base-22.04.5-base-amd64.tar.gz",
+      "sha256": "242cd8898b33ea806ef5f13b1076ed7c76f9f989d18384452f7166692438ff1a"
+    }
+  },
+  "vendor": {
+    "filename": "HT1008_Software.zip",
+    "url": "https://www.hantek.com/Product/Hantek1008/HT1008_Software.zip",
+    "sha256": "7538a79516fb393c7d6f2a437e85aed94fd7d59d8bebfa684d197703fbf03a98",
+    "setup_sha256": "e27ee7d49a5d10edc53a7ea008c76bb3b4b1ca36a95ecdbd9f272ec03c5c2a0f"
+  },
+  "driver": {
+    "filename": "hantek1008py-302e45ad.tar.gz",
+    "url": "https://codeload.github.com/mfg92/hantek1008py/tar.gz/302e45ad9d47dafec8a57c36aaca0b76647b221d",
+    "sha256": "5c619990688f47726979c559f811b13640b10a5d173274c8d7a6ffe91a444451",
+    "commit": "302e45ad9d47dafec8a57c36aaca0b76647b221d",
+    "driver_sha256": "904fbb3e5dfef41d0f33c5f72ce2a06b5c45b81d61be27a80be508ac393d8c13"
+  },
+  "unshield": {
+    "filename": "unshield-1.6.2.tar.gz",
+    "url": "https://codeload.github.com/twogood/unshield/tar.gz/refs/tags/1.6.2",
+    "sha256": "a937ef596ad94d16e7ed2c8553ad7be305798dcdcfd65ae60210b1e54ab51a2f"
+  },
+  "appimagetool": {
+    "filename": "appimagetool-x86_64.AppImage",
+    "url": "https://github.com/AppImage/appimagetool/releases/download/1.9.1/appimagetool-x86_64.AppImage",
+    "sha256": "ed4ce84f0d9caff66f50bcca6ff6f35aae54ce8135408b3fa33abfc3cb384eb0",
+    "release": "1.9.1"
+  },
+  "runtime": {
+    "filename": "runtime-x86_64",
+    "url": "https://github.com/AppImage/type2-runtime/releases/download/20251108/runtime-x86_64",
+    "sha256": "2fca8b443c92510f1483a883f60061ad09b46b978b2631c807cd873a47ec260d",
+    "release": "20251108"
+  },
+  "ffmpeg_license": {
+    "filename": "ffmpeg-COPYING.GPLv3",
+    "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n7.0.2/COPYING.GPLv3",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  "python": {
+    "version": "3.12.15",
+    "release": "20261009",
+    "filename": "cpython-3.12.15+20261009-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261009/cpython-3.12.15%2B20261009-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+    "sha256": "ffa8f85f1b56e88b687f08d743d817015524b86a9365fd921243132b80f1a36d"
+  }
+}
